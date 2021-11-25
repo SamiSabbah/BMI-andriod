@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
 
-    private Handler mHandler = new Handler();
+    private final Handler mHandler = new Handler();
     private TextView nextButton;
 
     @Override
@@ -26,6 +26,7 @@ public class Splash extends AppCompatActivity {
                 Intent i = new Intent(Splash.this, Login.class);
                 startActivity(i);
                 mHandler.removeCallbacksAndMessages(null);
+                finish();
             }
         });
 
@@ -41,5 +42,6 @@ public class Splash extends AppCompatActivity {
         Intent i = new Intent(Splash.this, Login.class);
 
         startActivity(i);
+        finish();
     }
 }

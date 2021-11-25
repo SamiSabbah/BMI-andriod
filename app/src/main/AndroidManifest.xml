@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMI">
         <activity
+            android:name=".status_items"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".NewRecord"
+            android:exported="false" />
+        <activity
+            android:name=".CompleteYourInformation"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
