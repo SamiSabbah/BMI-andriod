@@ -47,7 +47,6 @@
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
                 android:layout_marginRight="20dp"
                 android:text="Gender"
                 android:textColor="@color/main"
@@ -90,7 +89,6 @@
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
                 android:layout_marginRight="20dp"
                 android:text="Weight"
                 android:textColor="@color/main"
@@ -147,7 +145,6 @@
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
                 android:layout_marginRight="20dp"
                 android:text="Length"
                 android:textColor="@color/main"
@@ -203,7 +200,6 @@
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
                 android:layout_marginRight="20dp"
                 android:text="Date Of Birth"
                 android:textColor="@color/main"

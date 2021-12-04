@@ -44,17 +44,16 @@
             android:layout_marginBottom="80dp"
             android:gravity="center"
             android:padding="12sp"
-            android:text="New Record"
+            android:text="Add Food Details"
             android:textColor="@color/main"
             android:textSize="36dp"
             android:textStyle="bold" />
-
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15sp"
-            android:layout_marginBottom="40sp"
+            android:layout_marginBottom="40dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -62,48 +61,20 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Weight"
+                android:text="Name"
                 android:textColor="@color/main"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="20sp"
-                android:layout_height="20sp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="16sp"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:paddingBottom="4dp"
-                android:text="-"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
             <EditText
-                android:layout_width="80dp"
-                android:layout_height="20dp"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:text="0"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="20sp"
-                android:layout_height="20sp"
-                android:layout_gravity="center"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:text="+"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="lg"
-                android:textColor="@color/main" />
+                android:layout_weight="1"
+                android:layout_marginLeft="12sp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textSize="16sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -111,55 +82,26 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15sp"
             android:layout_marginBottom="40sp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Length"
+                android:text="Category"
                 android:textColor="@color/main"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="20sp"
-                android:layout_height="20sp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="16sp"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:paddingBottom="4dp"
-                android:text="-"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
-            <EditText
-                android:layout_width="80dp"
+            <Spinner
+                android:id="@+id/category_spinner"
+                android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:text="0"
-                android:textColor="@color/main"
+                android:layout_weight="1"
+                android:layout_marginLeft="12sp"
+                android:background="@drawable/spinner"
                 android:textSize="16sp" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="20sp"
-                android:layout_height="20sp"
-                android:layout_gravity="center"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:text="+"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="cm"
-                android:textColor="@color/main" />
         </LinearLayout>
 
         <LinearLayout
@@ -174,64 +116,83 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Date"
+                android:text="Calories"
                 android:textColor="@color/main"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-
             <EditText
-                android:layout_width="145dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12sp"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:textColor="@color/main"
                 android:textSize="16sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="cal/g" />
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15sp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="120dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="Time"
+                android:text="Photo"
                 android:textColor="@color/main"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="22sp"
+                android:textStyle="bold"/>
 
-
-            <EditText
-                android:layout_width="145dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12sp"
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:textColor="@color/main"
-                android:textSize="16sp" />
-
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_launcher_background" />
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/saveDataButton"
+
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="110dp"
-            android:background="#0B85D8"
-            android:text="Save Data"
-            android:textAllCaps="false"
-            android:textColor="#FFF"
-            android:textSize="16sp" />
+            android:layout_marginHorizontal="15sp">
+
+            <Button
+                android:id="@+id/uploadPhoto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border_with_raduis"
+                android:text="Upload Photo"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/addFoodSave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/border_with_raduis"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
 
 
     </LinearLayout>

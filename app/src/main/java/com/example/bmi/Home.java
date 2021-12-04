@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class Home extends AppCompatActivity {
     private Button addRecordButton;
+    private Button addFood;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,11 +17,20 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         addRecordButton = findViewById(R.id.addRecordButton);
+        addFood = findViewById(R.id.addFood);
 
         addRecordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Home.this, NewRecord.class);
+                startActivity(i);
+            }
+        });
+
+        addFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, AddFoodDetails.class);
                 startActivity(i);
             }
         });
