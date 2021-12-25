@@ -52,6 +52,7 @@
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name"
@@ -67,6 +68,7 @@
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signupEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="E-Mail"
@@ -83,6 +85,7 @@
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signupPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="15"
@@ -99,6 +102,7 @@
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signupRe_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="15"

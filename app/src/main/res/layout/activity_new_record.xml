@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CompleteYourInformation">
+    tools:context=".NewRecord">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:background="@color/main">
 
         <TextView
-            android:id="@+id/backArrow"
+            android:id="@+id/addRecordBackArrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -68,6 +68,7 @@
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addRecordDecWeight"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -80,15 +81,18 @@
                 android:textSize="16sp" />
 
             <EditText
+                android:id="@+id/addRecordWeight"
                 android:layout_width="80dp"
                 android:layout_height="20dp"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="0"
+                android:text="40"
                 android:textColor="@color/main"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:inputType="numberDecimal"/>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addRecordIncWeight"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -124,6 +128,7 @@
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addRecordDecLength"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -136,15 +141,18 @@
                 android:textSize="16sp" />
 
             <EditText
+                android:id="@+id/addRecordLength"
                 android:layout_width="80dp"
                 android:layout_height="20dp"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="0"
+                android:text="150"
                 android:textColor="@color/main"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:inputType="numberDecimal"/>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addRecordIncLength"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -180,14 +188,26 @@
                 android:textStyle="bold" />
 
 
-            <EditText
-                android:layout_width="145dp"
+            <TextView
+                android:id="@+id/addRecordDate"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12sp"
                 android:background="@drawable/border"
                 android:gravity="center"
                 android:textColor="@color/main"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:inputType="date"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_gravity="center"
+                android:background="@drawable/calendar"
+                android:gravity="center"
+                android:textColor="@color/main"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"/>
 
 
         </LinearLayout>
@@ -209,14 +229,16 @@
                 android:textStyle="bold" />
 
 
-            <EditText
+            <TextView
+                android:id="@+id/addRecordTime"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12sp"
                 android:background="@drawable/border"
                 android:gravity="center"
                 android:textColor="@color/main"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:inputType="datetime"/>
 
 
         </LinearLayout>

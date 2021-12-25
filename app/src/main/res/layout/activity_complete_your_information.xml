@@ -18,6 +18,7 @@
         android:background="@color/main"/>
 
     <LinearLayout
+        android:id="@+id/dob"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -54,12 +55,14 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/radioMale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:buttonTint="@color/main"
@@ -69,6 +72,7 @@
                     android:textSize="16sp" />
 
                 <RadioButton
+                    android:id="@+id/radioFemale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:buttonTint="@color/main"
@@ -96,6 +100,7 @@
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/decWeight"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -108,15 +113,18 @@
                 android:textSize="16sp" />
 
             <EditText
+                android:id="@+id/weight"
                 android:layout_width="80dp"
                 android:layout_height="20dp"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="0"
+                android:inputType="numberDecimal"
+                android:text="40"
                 android:textColor="@color/main"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/incWeight"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -152,6 +160,7 @@
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/decLength"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -164,15 +173,18 @@
                 android:textSize="16sp" />
 
             <EditText
+                android:id="@+id/length"
                 android:layout_width="80dp"
                 android:layout_height="20dp"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="0"
+                android:inputType="numberDecimal"
+                android:text="150"
                 android:textColor="@color/main"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/incLength"
                 android:layout_width="20sp"
                 android:layout_height="20sp"
                 android:layout_gravity="center"
@@ -208,10 +220,26 @@
 
 
             <EditText
-                android:layout_width="145dp"
+                android:id="@+id/DOB"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12sp"
                 android:background="@drawable/border"
+                android:gravity="center"
+                android:inputType="date"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="@color/main"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/calendar"
                 android:gravity="center"
                 android:textColor="@color/main"
                 android:textSize="16sp" />
@@ -223,13 +251,13 @@
             android:id="@+id/completeDataSaveButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="110dp"
+            android:background="#0B85D8"
             android:text="Save Data"
             android:textAllCaps="false"
             android:textColor="#FFF"
-            android:layout_marginTop="110dp"
-            android:layout_marginHorizontal="20dp"
-            android:background="#0B85D8"/>
+            android:textSize="16sp" />
 
 
     </LinearLayout>

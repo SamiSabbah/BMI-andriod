@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:id="@+id/foodListImage"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_launcher_background"
+        android:background="@drawable/border"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/foodListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salamon"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/foodListCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/foodListCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 cal /g"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/foodListEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_with_radius"
+            android:text="edit"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="end">
+
+            <Button
+                android:id="@+id/foodListDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="X"
+                android:background="@drawable/border_with_radius"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

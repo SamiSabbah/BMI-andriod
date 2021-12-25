@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMI">
         <activity
-            android:name=".AddFoodDetails"
+            android:name=".EditFoodDetails"
             android:exported="false" />
         <activity
-            android:name=".status_items"
+            android:name=".FoodList"
+            android:exported="false" />
+        <activity
+            android:name=".AddFoodDetails"
             android:exported="false" />
         <activity
             android:name=".Home"

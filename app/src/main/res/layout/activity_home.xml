@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CompleteYourInformation">
+    tools:context=".Home">
 
     <TextView
         android:layout_width="match_parent"
@@ -25,6 +25,7 @@
         android:padding="20sp">
 
         <TextView
+            android:id="@+id/userName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -50,11 +51,12 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/currentStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Normal (still Good)"
                 android:textColor="@color/gray"
-                android:background="@drawable/border_with_raduis"
+                android:background="@drawable/border_with_radius"
                 android:padding="15dp"
                 android:gravity="center"/>
 
@@ -85,6 +87,7 @@
                     >
 
                     <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/oldStatusRecycle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/main"
@@ -120,20 +123,23 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/viewFoodButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="View Food"
                 android:textAllCaps="false" />
 
         </LinearLayout>
+
         <TextView
+            android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/logout"
             android:textColor="@color/black"
             android:layout_marginTop="25dp"/>
-    </LinearLayout>
 
+    </LinearLayout>
 
 </LinearLayout>

@@ -8,22 +8,29 @@
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/bg_center.xml" value="0.1953125" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/border.xml" value="0.1953125" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/border_with_main_background.xml" value="0.1953125" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/border_with_radius.xml" value="0.16447368421052633" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/border_with_raduis.xml" value="0.1953125" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/category_arrow.xml" value="0.16447368421052633" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/catergory_arrow.xml" value="0.16447368421052633" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.18552631578947368" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1953125" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/drawable/spinner.xml" value="0.16447368421052633" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_add_food_details.xml" value="0.22" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_complete_your_information.xml" value="0.25" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_edit_food_details.xml" value="0.18" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_food_list.xml" value="0.2" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_main.xml" value="0.21781668383110195" />
-        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_new_record.xml" value="0.25030826140567203" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_new_record.xml" value="0.25" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_signup.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_splash.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_status_items.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/samy-/AndroidStudioProjects/BMI/app/src/main/res/layout/food_list.xml" value="0.2" />
+        <entry key="..\:/Users/samy-/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/samy-/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.17192982456140352" />
       </map>
     </option>
   </component>
